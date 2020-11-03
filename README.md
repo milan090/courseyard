@@ -36,6 +36,8 @@ A handpicked collection of best free online learning resources on the Planet ðŸŒ
 5. (Optional) Setup test data for courses.
    `node utils/addDataToDB $(pwd)/testData.json`
    This will setup some test data (55 courses) for testing this project
+   
+---
 
 ### Team Coffee!â˜•
 
