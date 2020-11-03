@@ -1,11 +1,14 @@
-FROM node:12-alpine
+FROM node:alpine
 RUN mkdir -p /home/node/app/client && chown -R node:node /home/node/app
 WORKDIR /home/node/app
 
-COPY package*.json ./
-COPY client/package*.json ./client/
+RUN apk update && apk add npm python g++ make && rm -rf /var/cache/apk/*
 
 USER node
+
+COPY --chown=node:node package*.json ./
+COPY --chown=node:node client/package*.json ./client/
+
 
 RUN npm install --only=prod
 RUN cd ./client && npm install --only=prod
