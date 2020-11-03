@@ -6,7 +6,7 @@ A handpicked collection of best free online learning resources on the Planet �
 
 ![javascript](https://img.shields.io/badge/-javascript-yellow) ![react](https://img.shields.io/badge/-react-red) ![express](https://img.shields.io/badge/-express-green) ![postgresql](https://img.shields.io/badge/-postgresql-blue)
 
-## 🤩 Quirks
+## 🤩 Quirks 
 
 - Get the best **free**, **handpicked** learning resources available on the internet.
 - Get a bunch of cool courses available on different **languages**.
@@ -51,3 +51,4 @@ We are a team of 3!
 ##### Crafted With ♥ By Team Coffee
 
 ![love-badge](https://forthebadge.com/images/badges/built-with-love.svg)
+
