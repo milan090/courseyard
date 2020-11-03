@@ -1,0 +1,22 @@
+.error-code {
+    font-size: 200px;
+    text-shadow: 3px 3px 0 #04e9ae, -1px -1px 0 rgba(0, 0, 0, 0), 1px -1px 0#04e9b000, -1px 1px 0 rgba(0, 0, 0, 0), 1px 1px 0 #04e9b000;
+}
+
+.zero {
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 rgba(0, 0, 0, 0), 1px -1px 0#000, -1px 1px 0 rgba(0, 0, 0, 0), 1px 1px 0 #000;
+}
+
+.error-msg {
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+@media (max-width: 480px) {
+    .error-code {
+        font-size: 140px;
+    }
+    .error-msg {
+        font-size: 15px;
+    }
+}

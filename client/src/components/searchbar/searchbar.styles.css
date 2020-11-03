@@ -1,0 +1,19 @@
+.searchbox {
+  -webkit-transition: width 400ms, margin-left 400ms;
+  transition: width 400ms, margin-left 400ms;
+}
+
+.search-icon {
+  -webkit-transition: width 400ms, margin-right 400ms;
+  transition: width 400ms, margin-right 400ms;
+}
+
+.searchbox:focus {
+  width: 110%;
+  margin-left: -5%;
+}
+
+.searchbox:focus ~ .search-icon {
+  margin-right: -5%;
+}
+/*# sourceMappingURL=searchbar.styles.css.map */

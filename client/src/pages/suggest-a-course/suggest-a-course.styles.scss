@@ -1,0 +1,18 @@
+.title-add-courses {
+    text-shadow: 2.3px 2.3px 0 #04e9ae, -1px -1px 0 rgba(0, 0, 0, 0), 1px -1px 0#04e9b000, -1px 1px 0 rgba(0, 0, 0, 0), 1px 1px 0 #04e9b000;
+}
+
+.tags-input-field {
+    &::placeholder {
+        opacity: 0;
+        transition: opacity ease-in 50ms;
+        
+    }
+
+    &:focus {
+        &::placeholder {
+            opacity: 100;
+            transition: opacity ease-in 50ms;
+        }
+    }
+}

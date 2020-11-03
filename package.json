@@ -1,0 +1,53 @@
+{
+  "name": "courseyard",
+  "version": "0.0.1",
+  "description": "A handpicked collection of best free online learning resources on the planet",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd client && npm run build && mv build ..",
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "lint": "eslint",
+    "lint:client": "cd client && eslint ./src/**/*.js ./src/**/*.jsx --no-error-on-unmatched-pattern",
+    "lint:all": "npm run lint && npm run lint:client",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milan090/courseyard.git"
+  },
+  "author": "Team Coffee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milan090/courseyard/issues"
+  },
+  "homepage": "https://github.com/milan090/courseyard#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^7.24.0",
+    "firebase-admin": "^9.2.0",
+    "knex": "^0.21.6",
+    "morgan": "^1.10.0",
+    "pg": "^8.4.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format && npm run lint:all"
+    }
+  }
+}

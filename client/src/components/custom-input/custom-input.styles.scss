@@ -1,0 +1,30 @@
+@mixin small-label {
+  font-size: 0.85rem;
+    bottom: 27px;
+    opacity: 1;
+}
+
+.custom-input {
+  position: relative;
+
+  .custom-input-field {
+    padding: 0 5px;
+
+    &:focus + .custom-input-label {
+      @include small-label();
+    }
+  }
+
+  .custom-input-label {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    pointer-events: none;
+    opacity: 0.5;
+    transition: font-size 200ms ease-in-out, bottom 200ms ease-in-out, opacity 200ms ease-out;
+  }
+
+  .custom-input-small-label {
+    @include small-label();
+  }
+}

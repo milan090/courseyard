@@ -1,0 +1,17 @@
+.toggle__dot {
+  top: -0.25rem;
+  left: -0.25rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input:checked ~ .toggle__dot {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+input:checked ~ .toggle__line {
+  background-color: darkgrey;
+  background-color: #0000ff;
+}
+/*# sourceMappingURL=switch.styles.css.map */

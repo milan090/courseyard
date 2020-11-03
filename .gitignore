@@ -1,0 +1,12 @@
+node_modules
+build
+
+api/config/*.json
+api/config/*.env
+client/src/firebase/*.json
+logs
+
+api/config/firebase-service*.json
+api/config/*.env
+
+nginx-conf

@@ -1,0 +1,442 @@
+[
+  {
+    "title": "Flutter Tutorial for Beginners",
+    "instructor": "The Net Ninja",
+    "description": "Hey gang, in this Flutter tutorial for beginners, I'll give you a quick introduction to the course and Flutter itself, a preview of what we'll be building & finally show you how to install Flutter on your computer.",
+    "imageurl": "https://img.youtube.com/vi/1ukSR1GRtMU/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+    "tags": ["flutter", "dart"]
+  },
+  {
+    "title": "Full React Course 2020",
+    "instructor": "John Smilga",
+    "description": "Learn the basics of React in this comprehensive course. You will learn about fundamentals, hooks, context API, react router, custom hooks, and more.",
+    "imageurl": "https://i.ytimg.com/vi/iZhV0bILFb0/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCi4pwQK-8dYpm825v571kjIQTOTQ",
+    "courseurl": "https://www.youtube.com/watch?v=iZhV0bILFb0",
+    "tags": ["React", "freeCodeCamp.org"]
+  },
+  {
+    "title": "JavaScript Introduction",
+    "instructor": "Michel Buffa",
+    "description": "Learn JavaScript, a Web development programming language, to add interactivity to your Web pages, and become an expert Web developer. This course is part of W3C's Front-End Web Developer Professional Certificate.",
+    "imageurl": "https://prod-discovery.edx-cdn.org/media/course/image/c50943b5-3375-4d50-9f91-911930551603-5703bb2a02c8.small.png",
+    "courseurl": "https://www.edx.org/course/javascript-introduction",
+    "tags": ["JavaScript", "Introduction to JavaScript"]
+  },
+  {
+    "title": " Python for Beginners [Full Course]",
+    "instructor": "Mosh Hamedani",
+    "description": "Learn the basics of Python in this Beginner's course !",
+    "imageurl": "https://i.ytimg.com/vi/_uQrJ0TkZlc/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+    "tags": ["Python", "Python For Beginners"]
+  },
+  {
+    "title": "Machine Learning With Python",
+    "instructor": "Tim Ruscica",
+    "description": "This series starts out teaching basic machine learning concepts like linear regression and k-nearest neighbors and moves into more advanced topics like neural networks and convolution neural networks.",
+    "imageurl": "https://i.ytimg.com/vi/ujTCoH21GlA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDBLAKQaum0h96ZPqA25wK-mSzeAg",
+    "courseurl": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr",
+    "tags": ["Machine Learning", "Tech With Tim"]
+  },
+  {
+    "title": "Full Ethical Hacking Course - Beginner Network Penetration Testing",
+    "instructor": "The Cyber Mentor",
+    "description": "Learn network penetration testing / ethical hacking in this full tutorial course for beginners. This course teaches everything you need to know to get started with ethical hacking and penetration testing.",
+    "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTOaDN0-8IcLxdDffDh8gB6Oqt4rflTwxRqzA&usqp=CAU",
+    "courseurl": "https://www.youtube.com/watch?v=WnN6dbos5u8",
+    "tags": ["Ethical Hacking", "freeCodeCamp.org"]
+  },
+  {
+    "title": "TypeScript Course",
+    "instructor": "Maximilian Schwarzmüller",
+    "description": "Free TypeScript Introduction for Beginners: Get Started with TypeScript, learn the Basics, its Features, Workflows and how to use it!",
+    "imageurl": "https://i.ytimg.com/vi/BwuLxPH8IDs/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=BwuLxPH8IDs",
+    "tags": ["TypeScript"]
+  },
+  {
+    "title": "Learn Golang",
+    "instructor": "Tim Ruscica",
+    "description": "A tutorial series on the golang programming language. This go programming series is designed for complete beginners looking to jump into the world of go!",
+    "imageurl": "https://i.ytimg.com/vi/75lJDVT1h0s/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLASysRvj18bqYWls2c5iA68GTjHvQ",
+    "courseurl": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-mtY_SE3HuzQJzuj4VlUG0q",
+    "tags": ["Golang", "Tech With Tim"]
+  },
+  {
+    "title": "Django Bootcamp 2020",
+    "instructor": "Justin Mitchel",
+    "description": "Learn all about Django in this October Django Bootcamp",
+    "imageurl": "https://i.ytimg.com/vi/16x3VpF2QrA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA08Z2MdX9K07QnZy7ZFZ0pv7J0og",
+    "courseurl": "https://www.youtube.com/playlist?list=PLEsfXFp6DpzT-1RVQVsL7C2XGMeQzfqAL",
+    "tags": ["Django"]
+  },
+  {
+    "title": "Data Structures Course",
+    "instructor": "William Fiset",
+    "description": "Learn and master the most common data structures in this full course from Google engineer William Fiset.",
+    "imageurl": "https://i.ytimg.com/vi/RBSGKlAvoiM/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+    "tags": ["Data Structures", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Intro to Git and Github",
+    "instructor": "Daniel Shiffman",
+    "description": "This course is designed to teach you the basics of working with git version control and the GitHub website. ",
+    "imageurl": "https://i.ytimg.com/vi/BCQHnlnPusY/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV",
+    "tags": ["Git", "Github"]
+  },
+  {
+    "title": "C++ Programming Course",
+    "instructor": "Caleb Curry",
+    "description": "This is everything you need to know to get started as a C++ Programming Software developer / Software engineer. We start off with the super basics and work our way to intermediate topics.",
+    "imageurl": "https://i.ytimg.com/vi/_bYFu9mBnr4/hqdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=_bYFu9mBnr4",
+    "tags": ["C++"]
+  },
+  {
+    "title": "Angular Full Course",
+    "instructor": "Codedamn",
+    "description": "Learn about Angular 6 (and above) in this complete course. You will learn how to create small/medium/large applications with Angular 6 in this web development tutorial.",
+    "imageurl": "https://i.ytimg.com/vi/2OHbjep_WjQ/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=2OHbjep_WjQ",
+    "tags": ["Angular", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Vue Full Course",
+    "instructor": "Mitchell Romney",
+    "description": "Learn Vue 3 Course for Beginners! Vue is a progressive framework for building user interfaces. Ready to start your path to becoming a front end Vue developer? Let's get started!",
+    "imageurl": "https://i.ytimg.com/vi/ZqgiuPt5QZo/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDQ1fBmlQ6G3F25F7uVCA7vJ1z6hQ",
+    "courseurl": "https://www.youtube.com/watch?v=ZqgiuPt5QZo",
+    "tags": ["Vue"]
+  },
+  {
+    "title": "Learn Ruby",
+    "instructor": "Mike Dane",
+    "description": "This course will give you a full introduction into all of the core concepts in ruby.",
+    "imageurl": "https://i.ytimg.com/vi/CIe1DxrSrhs/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDreAZoipdeSJjxccoRsyi5_0JU5g",
+    "courseurl": "https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpO90iMas70Tt4_wYjhLGkya",
+    "tags": ["Ruby"]
+  },
+  {
+    "title": "Ruby On Rails Crash Course",
+    "instructor": "Web-Crunch",
+    "description": "A beginner food log project to start learning the Ruby on Rails framework",
+    "imageurl": "https://i.ytimg.com/vi/B3Fbujmgo60/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=B3Fbujmgo60",
+    "tags": ["Ruby on Rails"]
+  },
+  {
+    "title": "C Programming Course",
+    "instructor": "Caleb Curry",
+    "description": "This is everything you need to know to get started as a C Programming Software developer / Software engineer. We start off with the super basics and work our way to intermediate topics.",
+    "imageurl": "https://i.ytimg.com/vi/Bz4MxDeEM6k/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=Bz4MxDeEM6k",
+    "tags": ["C"]
+  },
+  {
+    "title": "Kotlin Course",
+    "instructor": "Nate Ebel",
+    "description": "Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development.",
+    "imageurl": "https://i.ytimg.com/vi/F9UC9DY-vIU/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=F9UC9DY-vIU",
+    "tags": ["Kotlin", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Swift Course",
+    "instructor": "CodeWithChris",
+    "description": "Learn Swift programming with this 3 hour course that will take you from beginner to a solid understanding of how to program in Swift! This Swift tutorial is perfect even for beginners with no programming experience! You'll be taken through the basics and build up skills layer by layer.",
+    "imageurl": "https://i.ytimg.com/vi/FcsY1YPBwzQ/hqdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=FcsY1YPBwzQ",
+    "tags": ["Swift"]
+  },
+  {
+    "title": "Julia Intro",
+    "instructor": "Derek banas",
+    "description": "Learn the basics of Julia Programming language in this one video !",
+    "imageurl": "https://i.ytimg.com/vi/sE67bP2PnOo/hq720.jpg?sqp=-oaymwEZCOgCEMoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD0GvtEIaAKUgGP90flnoF4CZxqSg",
+    "courseurl": "https://www.youtube.com/watch?v=sE67bP2PnOo",
+    "tags": ["Julia"]
+  },
+  {
+    "title": "HTML5 And CSS3 Full Course",
+    "instructor": "John Smilga",
+    "description": "HTML and CSS are essential skills to have for a career in web development. In this course we will cover both languages from the scratch and by the end of the course you will be creating your own projects.",
+    "imageurl": "https://i.ytimg.com/vi/mU6anWqZJcc/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=mU6anWqZJcc",
+    "tags": ["HTML5", "CSS3", "freeCodeCamp.org"]
+  },
+  {
+    "title": "TensorFlow 2.0 Full Course",
+    "instructor": "Tim Ruscica",
+    "description": "Learn how to use TensorFlow 2.0 in this full tutorial course for beginners. This course is designed for Python programmers looking to enhance their knowledge and skills in machine learning and artificial intelligence. ",
+    "imageurl": "https://i.ytimg.com/vi/tPYj3fFJGjk/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=tPYj3fFJGjk",
+    "tags": ["TensorFlow", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Intermediate Python Course",
+    "instructor": "Patrick Loeber",
+    "description": "Take your Python skills to the next level with this intermediate Python course. First, you will get a review of basic concepts such as lists, strings, and dictionaries, but with an emphasis on some lesser known capabilities. Then, you will learn more advanced topics such as threading, multiprocessing, context managers, generators, and more.",
+    "imageurl": "https://i.ytimg.com/vi/HGOBQPFzWKo/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=HGOBQPFzWKo",
+    "tags": ["Python", "freeCodeCamp.org"]
+  },
+  {
+    "title": "What Are APIs Full Course",
+    "instructor": "Criag Dennis",
+    "description": "What is an API? Learn all about APIs (Application Programming Interfaces) in this full tutorial for beginners. You will learn what APIs do, why APIs exist, and the many benefits of APIs. APIs are used all the time in programming and web development so it is important to understand how to use them.",
+    "imageurl": "https://i.ytimg.com/vi/GZvSYJDk-us/hqdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+    "tags": ["APIs", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Deno Full Course",
+    "instructor": "TheCodeHolic",
+    "description": "Learn how to use Deno in this complete course. Deno is a Node.js alternative created by the same person who created Node.js. In this tutorial course, you will learn how to build real apps with Deno. You will also learn the basics of the Typescript. You will see how to use Deno to build a survey app",
+    "imageurl": "https://i.ytimg.com/vi/cQQyYQrJzHU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDAc1EVoWZnmZRvPG_OiCdidKi8kA",
+    "courseurl": "https://www.youtube.com/playlist?list=PLLQuc_7jk__XEtengrbqYzdYMRdqVCKgS",
+    "tags": ["Deno"]
+  },
+  {
+    "title": "PHP Full Course",
+    "instructor": "Mike Dane",
+    "description": "Learn the PHP programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics using the PHP language.",
+    "imageurl": "https://i.ytimg.com/vi/OK_JCtrrv-c/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=OK_JCtrrv-c",
+    "tags": ["php"]
+  },
+  {
+    "title": "R Full Course",
+    "instructor": "Barton Poulson",
+    "description": "Learn the R programming language in this tutorial course. This is a hands-on overview of the statistical programming language R, one of the most important tools in data science.",
+    "imageurl": "https://i.ytimg.com/vi/_V8eKsto3Ug/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+    "tags": ["R", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Java Course",
+    "instructor": "Marcus Biel",
+    "description": "Learn Java 8 and object oriented programming with this complete Java course for beginners.",
+    "imageurl": "https://i.ytimg.com/vi/grEKMHGYyns/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=grEKMHGYyns",
+    "tags": ["Java", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Markdown Guide",
+    "instructor": "Brad Traversy",
+    "description": "In this Guide we will discuss what Markdown is, what it is used for and we will jump into VSCode and learn the entire syntax in around 10 minutes.",
+    "imageurl": "https://i.ytimg.com/vi/HUBNt18RFbo/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=HUBNt18RFbo",
+    "tags": ["Markdown"]
+  },
+  {
+    "title": "C# ",
+    "instructor": "Mike Dane",
+    "description": "This course will give you a full introduction into all of the core concepts in C# (aka C Sharp). Follow along with the course and you'll be a C# programmer in no time!",
+    "imageurl": "https://i.ytimg.com/vi/GhQdlIFylQ8/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=GhQdlIFylQ8",
+    "tags": ["C#", "freeCodeCamp.org"]
+  },
+  {
+    "title": "MySQL Course",
+    "instructor": "Mike Dane",
+    "description": "In this course, we'll be looking at database management basics and SQL using the MySQL RDBMS. The course is designed for beginners to SQL and database management systems, and will introduce common database management topics.",
+    "imageurl": "https://i.ytimg.com/vi/HXV3zeQKqGY/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "tags": ["MySQL", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Tkinter Course",
+    "instructor": "Codemy.com",
+    "description": "Learn Tkinter in this full course for beginners. Tkinter is the fastest and easiest way to create the Graphic User Interfaces (GUI applications) with Python. Tkinter comes with Python already, so there's nothing to install!",
+    "imageurl": "https://i.ytimg.com/vi/YXPyB4XeYLA/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=YXPyB4XeYLA",
+    "tags": ["Tkinter", "freeCodeCamp.org"]
+  },
+  {
+    "title": "PyTorch Course",
+    "instructor": "Aakash N S",
+    "description": "In this course, you will learn how to build deep learning models with PyTorch and Python. The course makes PyTorch a bit more approachable for people starting out with deep learning and neural networks.",
+    "imageurl": "https://i.ytimg.com/vi/GIsg-ZUy0MY/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=GIsg-ZUy0MY",
+    "tags": ["PyTorch", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Lavaral Full Course",
+    "instructor": "Brad Traversy",
+    "description": "Laravel is the most popular open source PHP framework and uses the MVC (Model View Controller) design pattern. Brad will be covering all of the fundamentals of Laravel 5.4 in this series including....Routing, Controllers, Models & DB Migrations, Blade Templates/Views, Authentication & Access Control, CRUD Functionality, File Uploading and Much More...",
+    "imageurl": "https://i.ytimg.com/vi/EU7PRmCpx-0/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/playlist?list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-",
+    "tags": ["Lavaral"]
+  },
+  {
+    "title": "Intro To Nuxt.js",
+    "instructor": "Maximilian Schwarzmüller",
+    "description": "Nuxt.js is a framework/ library for Vue.js - it makes the development of Vue.js applications easier and adds easy SSR (server-side-rendering) support. Let's dive in!",
+    "imageurl": "https://i.ytimg.com/vi/nteDXuqBfn0/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=nteDXuqBfn0",
+    "tags": ["Nuxt.js"]
+  },
+  {
+    "title": "Next.js Course",
+    "instructor": "Codedamn",
+    "description": "Next.js crash course - This is a crash course on Next.js basics and how you can get started with the framework.",
+    "imageurl": "https://codedamn.com/assets/images/learnpaths/nextjs.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=tt3PUvhOVzo",
+    "tags": ["Next.js"]
+  },
+  {
+    "title": "jQuery Crash Course",
+    "instructor": "Brad Traversy",
+    "description": "In this Course, Brad will explain about the JavaScript library jQuery",
+    "imageurl": "https://i.ytimg.com/vi/3nrLc_JOF7k/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/playlist?list=PLillGF-RfqbYJVXBgZ_nA7FTAAEpp_IAc",
+    "tags": ["jQuery"]
+  },
+  {
+    "title": "Node.js Crash Course",
+    "instructor": "The Net Ninja",
+    "description": "Welcome to the Node.js Crash Course. In this course you'll get an insight about what node is and how is it used",
+    "imageurl": "https://i.ytimg.com/vi/zb3Qk8SG5Ms/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU",
+    "tags": ["Node.js"]
+  },
+  {
+    "title": "Express Crash Course",
+    "instructor": "Brad Traversy",
+    "description": "In this crash course Brad will take you for a deep dive into the Express JS framework for Node.js. I recommend first watching Brad's Node.js crash course",
+    "imageurl": "https://i.ytimg.com/vi/L72fhGm1tfE/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=L72fhGm1tfE",
+    "tags": ["Express"]
+  },
+  {
+    "title": "Rust Course",
+    "instructor": "dcode",
+    "description": "Follow this playlist to learn the basics of the Rust Programming Language.",
+    "imageurl": "https://i.ytimg.com/vi/vOMJlQ5B-M0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC7OngEaNNlskxmkThMVdSyH6xOkA",
+    "courseurl": "https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL",
+    "tags": ["Rust"]
+  },
+  {
+    "title": "PostgreSQL Course",
+    "instructor": "AmigosCode",
+    "description": "Learn how to use PostgreSQL in this full course. PostgreSQL is a general purpose and object-relational database management system. It is the most advanced open source database system widely used to build back-end systems.",
+    "imageurl": "https://i.ytimg.com/vi/qw--VYLpxG4/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "tags": ["PostgreSQL", "freeCodeCamp.org"]
+  },
+  {
+    "title": "MongoDB For Beginners",
+    "instructor": "The Net Ninja",
+    "description": "In this MongoDB Tutorial series, The Net Ninja will teach you all of the basics of MongoDB, including how to install and connect to MongoDB on your local computer as well as create, read, update and delete data.",
+    "imageurl": "https://i.ytimg.com/vi/9OPP_1eAENg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBI-dhqzaM5Gi9VzUwFS1KM7yyMtg",
+    "courseurl": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jpvoYriLI0bY8DOgWZfi6u",
+    "tags": ["MongoDB"]
+  },
+  {
+    "title": "Docker and Kubernetes - Full Course for Beginners",
+    "instructor": "AmigosCode and TechWorld With Nana",
+    "description": "Learn the fundamentals of Docker and Kubernetes in this complete hand-on course. First, you will learn about creating docker images, running docker containers, docker volumes, container registry and docker architecture. Next, you will learn about Kubernetes architecture, Kubernetes pods, services, config maps all the way to Kubernetes deployments.",
+    "imageurl": "https://i.ytimg.com/vi/bhBSlnQcq2k/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=bhBSlnQcq2k",
+    "tags": ["Docker", "Kubernetes"]
+  },
+  {
+    "title": "Svelte JavaScript Framework - Full Course",
+    "instructor": "Coding With Noah",
+    "description": "Learn everyhing about Svelte in this Full Course on the Svelte JavaScript Framework.",
+    "imageurl": "https://i.ytimg.com/vi/ujbE0mzX-CU/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=ujbE0mzX-CU",
+    "tags": ["Svelte", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Matplotlib Crash Course",
+    "instructor": "Keith Galli",
+    "description": "Learn the basics of Matplotlib in this crash course tutorial. Matplotlib is an amazing data visualization library for Python. You will also learn how to apply Matplotlib to real-world problems. ",
+    "imageurl": "https://i.ytimg.com/vi/3Xc3CA655Y4/hqdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=3Xc3CA655Y4",
+    "tags": ["Matplotlib", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Pandas Course",
+    "instructor": "Corey Schafer",
+    "description": "We will be learning how to get started with Pandas. Pandas is a Data Analysis Library that allows us to easily read, analyze, and modify data. Pandas is a fundamental tool to learn in the growing field of Data Science. So we'll start by learning how to install Pandas, how to load data into a Jupyter Notebook, and how to see basic information about the data we've loaded in.",
+    "imageurl": "https://i.ytimg.com/vi/ZyhVh-qRZPA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDepcsh8l5Ek5kpxptU4lOBbtRl2Q",
+    "courseurl": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS",
+    "tags": ["Pandas", "Python"]
+  },
+  {
+    "title": "Sass For Beginners",
+    "instructor": "codeSTACKr",
+    "description": "In this course, you will learn the basics of Sass. We will start with a brief overview of what Sass is along with what is required to incorporate Sass into your environment. We will also set up a Sass compiler in Visual Studio Code. You will learn about Sass variables, maps, nesting, functions, mixins, extending, and operations.",
+    "imageurl": "https://i.ytimg.com/vi/_a5j7KoflTs/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=_a5j7KoflTs",
+    "tags": ["Sass", "CSS", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Electron Course",
+    "instructor": "codedamn",
+    "description": "Learn what electron framework is and how you can build cross platform apps using electron framework. Electron framework allows you to use JavaScript, HTML, CSS in your desktop applications while providing a native feel.",
+    "imageurl": "https://i.ytimg.com/vi/SetziJyL8Yg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDMld_NLHq5y2tAN3QyqF7HhDnxKw",
+    "courseurl": "https://www.youtube.com/playlist?list=PLYxzS__5yYQmocPoLUiEAfD1cJNjhdQar",
+    "tags": ["Electron"]
+  },
+  {
+    "title": "Drupal Course",
+    "instructor": "Acquia Academy",
+    "description": "In this course, you will learn the basics of Drupal 8, including the components of Drupal, using Acquia's Dev Desktop to create a local development environment, and then build a simple Drupal site.",
+    "imageurl": "https://i.ytimg.com/vi/6e8QyfvQMmU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDksx3Itdz3YkYmqi6jQXBqmft2uA",
+    "courseurl": "https://www.youtube.com/playlist?list=PLpVC00PAQQxHzlDeQvCNDKkyKRV1G3_vT",
+    "tags": ["Drupal"]
+  },
+  {
+    "title": "Flask Course",
+    "instructor": "Clever Programmer",
+    "description": "Learn About flask in this 3 hour beginner course!",
+    "imageurl": "https://i.ytimg.com/vi/3mwFC4SHY-Y/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=3mwFC4SHY-Y",
+    "tags": ["Flask", "Python"]
+  },
+  {
+    "title": "Bootstrap 5 Course",
+    "instructor": "MDB- just code it",
+    "description": "In this course, We will be talking about the new Bootstrap 5 and how you can easily use it to create your websites",
+    "imageurl": "https://i.ytimg.com/vi/c9B4TPnak1A/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=c9B4TPnak1A",
+    "tags": ["Bootstrap", "CSS"]
+  },
+  {
+    "title": "Blazor Course",
+    "instructor": "Frank Liu",
+    "description": "Blazor is a Single Page Application framework created by Microsoft. With Blazor, you write C# to generate dynamic content and with Blazor WebAssembly you can become a full stack developer with C# on both front end and back end. In this course, you will learn about the architecture and how Blazor works. Then you will learn how to create a real-world project as you learn to use Blazor.",
+    "imageurl": "https://i.ytimg.com/vi/4G_BzLxa9Nw/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=4G_BzLxa9Nw",
+    "tags": ["Blazor", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Unity Full Course",
+    "instructor": "Brackeys",
+    "description": "Learn how to use Unity with these beginner tutorials! Master C# while creating cool games in the meantime.",
+    "imageurl": "https://i.ytimg.com/vi/j48LtUkZRjU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC3XYAkSf0AIla4cOv2cfMslHT9bA",
+    "courseurl": "https://www.youtube.com/playlist?list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6",
+    "tags": ["Unity"]
+  },
+  {
+    "title": "Unreal Engine Course",
+    "instructor": "Awsome tuts",
+    "description": "Learn Unreal Engine in this full tutorial using C++. In this beginner's course, you will how to create three full games with Unreal Engine and Blueprints.",
+    "imageurl": "https://i.ytimg.com/vi/LsNW4FPHuZE/maxresdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=LsNW4FPHuZE",
+    "tags": ["Unreal Engine", "freeCodeCamp.org"]
+  },
+  {
+    "title": "Deep Learning Course",
+    "instructor": "Jeremy Howard and Sylvain Gugger",
+    "description": "Practical Deep Learning for Coders is a course from fast.ai designed to give you a complete introduction to deep learning. This course was created to make deep learning accessible to as many people as possible. The only prerequisite for this course is that you know how to code (a year of experience is enough), preferably in Python, and that you have at least followed a high school math course.",
+    "imageurl": "https://i.ytimg.com/vi/0oyCUWLL_fU/hqdefault.jpg",
+    "courseurl": "https://www.youtube.com/watch?v=0oyCUWLL_fU",
+    "tags": ["Deep Learning", "freeCodeCamp.org"]
+  }
+]

@@ -1,0 +1,31 @@
+.custom-input {
+  position: relative;
+}
+
+.custom-input .custom-input-field {
+  padding: 0 5px;
+}
+
+.custom-input .custom-input-field:focus + .custom-input-label {
+  font-size: 0.75rem;
+  bottom: 25px;
+  opacity: 1;
+}
+
+.custom-input .custom-input-label {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  pointer-events: none;
+  opacity: 0.5;
+  -webkit-transition: font-size 200ms ease-in-out, bottom 200ms ease-in-out,
+    opacity 200ms ease-out;
+  transition: font-size 200ms ease-in-out, bottom 200ms ease-in-out, opacity 200ms ease-out;
+}
+
+.custom-input .custom-input-small-label {
+  font-size: 0.75rem;
+  bottom: 25px;
+  opacity: 1;
+}
+/*# sourceMappingURL=custom-input.styles.css.map */

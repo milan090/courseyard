@@ -1,0 +1,82 @@
+version: '3'
+
+services:
+  nodejs:
+    image: milan090/courseyard:latest
+    container_name: nodejs
+    restart: unless-stopped
+    environment:  
+      - DB_HOST=postgres
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - HOST=courseyard.tech
+    networks:
+      - app-network
+    depends_on:
+      - postgres
+    links:
+      - postgres
+    volumes: 
+      - ./config:/home/node/app/api/config
+      - ./ssl:/home/node/app/ssl
+  postgres:
+    container_name: postgres
+    image: postgres:alpine
+    ports: 
+      - "5432:5432"
+    environment: 
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    volumes: 
+      - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - app-network
+  webserver:
+    image: nginx:mainline-alpine
+    container_name: webserver
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - web-root:/var/www/html
+      - ./nginx-conf:/etc/nginx/conf.d
+      - certbot-etc:/etc/letsencrypt
+      - certbot-var:/var/lib/letsencrypt
+      - dhparam:/etc/ssl/certs
+    depends_on:
+      - nodejs
+    networks:
+      - app-network
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - certbot-var:/var/lib/letsencrypt
+      - web-root:/var/www/html
+    depends_on:
+      - webserver
+    command: certonly --webroot --webroot-path=/var/www/html --email milan@courseyard.tech --agree-tos --no-eff-email --force-renewal -d courseyard.tech  -d www.courseyard.tech
+volumes:
+  certbot-etc:
+  certbot-var:
+  web-root:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/milan/Apps/courseyard/views/
+      o: bind
+  dhparam:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/milan/Apps/courseyard/dhparam/
+      o: bind
+
+networks:
+  app-network:
+    driver: bridge
+    

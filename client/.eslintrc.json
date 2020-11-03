@@ -1,0 +1,35 @@
+{
+  "root": false,
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect",
+      "files": ["client/"]
+    }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-var": "error",
+    "quotes": ["error", "double"],
+    "no-console": "warn",
+    "indent": ["warn", 2],
+    "react/jsx-filename-extension": [1, { "allow": "as-needed" }]
+  }
+}

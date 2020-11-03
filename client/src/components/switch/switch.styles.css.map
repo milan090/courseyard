@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,GAAG,EAAE,OAAO;EACZ,IAAI,EAAE,OAAO;EACb,UAAU,EAAE,oBAAoB;CACnC;;AAED,AAAA,KAAK,AAAA,QAAQ,GAAC,YAAY,CAAC;EACvB,SAAS,EAAE,gBAAgB;CAC9B;;AAED,AAAA,KAAK,AAAA,QAAQ,GAAC,aAAa,CAAC;EACxB,gBAAgB,EAAE,QAAQ;EAC1B,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "switch.styles.scss"
+    ],
+    "names": [],
+    "file": "switch.styles.css"
+}

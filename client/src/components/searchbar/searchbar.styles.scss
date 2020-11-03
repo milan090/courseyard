@@ -1,0 +1,17 @@
+.searchbox {
+    transition: width 400ms, margin-left 400ms;
+}
+
+.search-icon {
+    transition: width 400ms, margin-right 400ms;
+}
+
+.searchbox:focus {
+    width: 110%;
+    margin-left: -5%;
+}
+
+.searchbox:focus~.search-icon {
+    margin-right: -5%;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}

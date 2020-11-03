@@ -1,0 +1,25 @@
+.card-box {
+    transition: all 0.3s ease-in-out;
+}
+
+.card-box:hover {
+    z-index: 10;
+    transform: scale(1.03, 1.03);
+}
+
+.star.notliked:focus {
+    animation: liked 0.25s linear;
+    transform-origin: center;
+}
+
+@keyframes liked {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.4, 1.4);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
