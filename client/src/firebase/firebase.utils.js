@@ -20,9 +20,11 @@ export const loginUserEmailPassword = (email, password) => {
 };
 
 export const signInWithGoogle = async () => {
-  return auth.signInWithPopup(googleProvider).then((res) => {
-    if (res.additionalUserInfo.isNewUser) return createUserInDB(res.user);
-  });
+  const result = await auth.signInWithPopup(googleProvider);
+  // const result = await auth.getRedirectResult();
+  console.log(result);
+  if (!result.additionalUserInfo) return;
+  if (result.additionalUserInfo.isNewUser) return createUserInDB(result.user);
 };
 
 export const createUserInDB = async (user) => {

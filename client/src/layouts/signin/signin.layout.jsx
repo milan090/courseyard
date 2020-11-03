@@ -32,7 +32,6 @@ const Signin = () => {
     loginUserEmailPassword(email, password)
       .then(() => {
         history.push("/");
-        setSignInLoading(false);
       })
       .catch((err) => {
         setSignInLoading(false);
@@ -51,7 +50,7 @@ const Signin = () => {
       });
   };
   return (
-    <form className="text-primary flex flex-col p-5 max-w-sm">
+    <div className="text-primary flex flex-col p-5 max-w-sm">
       <h1 className="text-3xl font-display font-semibold mb-10">Sign In</h1>
       <CustomInput
         type="email"
@@ -113,7 +112,7 @@ const Signin = () => {
         </svg>
         Sign In with Google
       </CustomButton>
-    </form>
+    </div>
   );
 };
 
