@@ -1,4 +1,3 @@
-<p align="center"><img src="./assets/courseyard-banner-light.png" height="80"></p>
 
 ## 💡 Introduction
 
