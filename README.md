@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/courseyard-banner-light.png" height="80"></p>
+<div style="margin-left:auto;margin-right:auto;display:block;"><img src="./assets/courseyard_webview.png" height="400"></div>
 
 ## 💡 Introduction
 
