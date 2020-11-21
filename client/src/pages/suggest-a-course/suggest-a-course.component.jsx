@@ -7,6 +7,7 @@ import "./suggest-a-course.styles.scss";
 import { useHistory } from "react-router-dom";
 import { UserContext } from "../../providers/user/user.provider";
 import axios from "axios";
+import swal from "sweetalert";
 
 function SuggestACoursePage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -34,7 +35,7 @@ function SuggestACoursePage() {
     setIsSubmitting(true);
     if (!name || !email || !title || !url || !description || !tags.length) {
       setIsSubmitting(false);
-      return alert("Please fill all the fields");
+      return swal("Please fill the form", "submit after filling the form", "warning");
     }
     axios
       .post("/courses/suggest", {
@@ -48,12 +49,12 @@ function SuggestACoursePage() {
       .then(() => {
         setIsSubmitting(false);
         history.push("/");
-        alert("Submitted succesfully");
+        swal("Done !!", "Form submitted succesfully", "success");
       })
       .catch((err) => {
         setIsSubmitting(false);
         console.error(err);
-        alert("Something went wrong");
+        swal("Oops !!", "Something went wrong", "error");
       });
   };
 
