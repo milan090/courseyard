@@ -1,4 +1,4 @@
-<img src="./assets/courseyard_webview.png" height="300">
+<img src="./assets/courseyard_webview.png">
 
 ## 💡 Introduction
 
