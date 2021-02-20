@@ -25,12 +25,12 @@ const About = () => {
           <span className="text-4xl font-semibold font-display">We Are A Perfect Team!</span>
           <div className="grid justify-items-center align-middle grid-flow-row xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 grid-cols-1">
             <div className="px-5">
-              <img src={IdeatorImg} className="text-sm h-40 mt-16" />
+              <img src={IdeatorImg} className="text-sm h-40 mt-16" alt="" />
               <span className="text-secondary font-display text-xl">
                 <a
                   href="https://github.com/KaranSinghBisht"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="hover:text-accent"
                 >
                   Karan
@@ -40,12 +40,12 @@ const About = () => {
               </span>
             </div>
             <div className="px-5">
-              <img src={WorkaholicImg} className="text-sm h-40 mt-16" />
+              <img src={WorkaholicImg} className="text-sm h-40 mt-16" alt="" />
               <span className="text-secondary font-display text-xl">
                 <a
                   href="https://github.com/saptarshibasu15"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="hover:text-accent"
                 >
                   Saptarshi
@@ -55,12 +55,12 @@ const About = () => {
               </span>
             </div>
             <div className="px-5">
-              <img src={PhilomathImg} className="text-sm h-40 mt-16" />
+              <img src={PhilomathImg} className="text-sm h-40 mt-16" alt="" />
               <span className="text-secondary font-display text-xl">
                 <a
                   href="https://github.com/milan090"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="hover:text-accent"
                 >
                   Milan
@@ -88,7 +88,7 @@ const About = () => {
               Why Should You Learn New Things?
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 pb-20">
-              <img src={LearningImg} className="inline h-48 mx-auto" />
+              <img src={LearningImg} className="inline h-48 mx-auto" alt="" />
               <div className="text-secondary font-display mt-5 inline">
                 Learning is essential to our existence. Just like food nourishes our bodies,
                 information, and continued learning nourishes our minds. In this hard time, you
